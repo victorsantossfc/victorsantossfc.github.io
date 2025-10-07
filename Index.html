@@ -1,1 +1,109 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Victor Hugo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 40px 0;
+    }
+    h1 {
+      margin: 0;
+    }
+    .projetos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px;
+      gap: 20px;
+    }
+    .projeto-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+    .projeto-card:hover {
+      transform: translateY(-5px);
+    }
+    .projeto-card h2 {
+      margin-bottom: 15px;
+    }
+    .projeto-card a button {
+      padding: 10px 20px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .projeto-card a button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+    <p>Confira meus projetos!</p>
+  </header>
+
+  <section class="projetos">
+    <div class="projeto-card">
+      <h2>Landing Page</h2>
+      <a href="projeto-landing-page/index.html" target="_blank">
+        <button>Abrir Projeto</button>
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <h2>To-Do List</h2>
+      <a href="projeto-todo-list/index.html" target="_blank">
+        <button>Abrir Projeto</button>
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <h2>Relógio Digital</h2>
+      <a href="projeto-relogio-digital/index.html" target="_blank">
+        <button>Abrir Projeto</button>
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <h2>Calculadora</h2>
+      <a href="projeto-calculadora/index.html" target="_blank">
+        <button>Abrir Projeto</button>
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <h2>Conversor de Moedas</h2>
+      <a href="projeto-conversor-moeda/index.html" target="_blank">
+        <button>Abrir Projeto</button>
+      </a>
+    </div>
+
+    <div class="projeto-card">
+      <h2>Clima e Humor</h2>
+      <a href="projeto-clima-humor/index.html" target="_blank">
+        <button>Abrir Projeto</button>
+      </a>
+    </div>
+  </section>
+</body>
+</html>
